@@ -116,7 +116,7 @@ function displayPlayerCards() {
         // Load the image
         playerImage.src = 'images/'+playerName+'.png';
 
-        // Ad the image to the card
+        // Add the image to the card
         playerCard.appendChild(playerImage);
 
         // Add the player's PER to the div.
