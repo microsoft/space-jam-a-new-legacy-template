@@ -8,7 +8,7 @@
     },
     {
       "file": "main.js",
-      "line": 2,
+      "line": 1,
       "description": "The first thing you need to do is create variables that will help you keep track of everything happening in the game. On this line, you should create one variable called `playerMap` that is an empty map. This will keep track of each player by mapping their name with their list of PER values."
     },
     {
