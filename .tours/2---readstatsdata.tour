@@ -3,9 +3,7 @@
   "title": "2 - readStatsData",
   "steps": [
     {
-      "file": "main.js",
-      "line": 10,
-      "description": "You're ready to start processing your player data! This tour follows along with the [8th unit of the Tune Squad Coaches App Learn Module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/8-initialize-app). \r\n\r\nClick next to start this tour!"
+      "description": "You're ready to start processing your player data! This tour finishes up the [8th unit of the Tune Squad Coaches App Learn Module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/8-initialize-app). \r\n\r\nClick next to start this tour!"
     },
     {
       "file": "main.js",
@@ -70,7 +68,7 @@
     {
       "file": "main.js",
       "line": 32,
-      "description": "Now that you have all of your player PER stats loaded into your `playerMap`, you can start adding your players to the bench! Call the `displayPlayerBench()` function. When you're ready, you can start the next tour!\r\n\r\n**NOTE:** Make sure you've closed your for loop, you don't want to call `displayPlayerBench()` 60 times!"
+      "description": "Now that you have all of your player PER stats loaded into your `playerMap`, you can start adding your players to the bench! Call the `displayPlayerBench()` function. When you're ready, you can start the next tour!\r\n\r\n**NOTE:** Make sure you've closed your for loop, you don't want to call `displayPlayerBench()` 60 times!\r\n\r\nTo start the next [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/9-add-players-to-bench), begin the next tour: [3 - addPlayerBench]."
     }
   ],
   "ref": "main"

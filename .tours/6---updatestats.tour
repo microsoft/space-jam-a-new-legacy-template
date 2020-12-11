@@ -3,8 +3,6 @@
   "title": "6 - updateStats",
   "steps": [
     {
-      "file": "main.js",
-      "line": 131,
       "description": "This tour follows along with the [12th unit in the Tune Squad Coaches App Microsoft Learn module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/12-update-stats).\r\n\r\nThe goal of this function is to update the player cards each time a new quarter starts. This tour will not be as details as previous tours to give you an opportunity to test your JavaScript.\r\n\r\nClick `next` to get started."
     },
     {
@@ -40,7 +38,7 @@
     {
       "file": "main.js",
       "line": 151,
-      "description": "Finally, update the text of the `currentPER` element with the new average."
+      "description": "Finally, update the text of the `currentPER` element with the new average.\r\n\r\nTo continue with this [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/12-update-stats), begin the next tour: [7 - endQuarter]"
     }
   ],
   "ref": "main"

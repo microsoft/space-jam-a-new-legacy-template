@@ -3,8 +3,6 @@
   "title": "4 - addPlayerCards",
   "steps": [
     {
-      "file": "main.js",
-      "line": 65,
       "description": "This tour follows along with the [10th unit in the Tune Squad Coaches App module on Microsoft Learn](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/10-add-stats-to-app). \r\n\r\nSimilar to how you created the buttons for each player on the bench, you will now create a div for each player card that will display the player's PER each quarter. This will help the coach make the decision of who to let rest on the bench and who to put in the game. \r\n\r\nTo get started, click `next`."
     },
     {
@@ -30,7 +28,7 @@
     {
       "file": "main.js",
       "line": 94,
-      "description": "Finally, you can append the entire div element for the player card (`playerCard`) to the `playerCardDisplay` element. \r\n\r\nMake sure you close your for loop after this line and test your app locally. Now, when you upload your `game_stats.csv` file you should not only see the buttons of each player on the bench, but the starting PER of each player on their cards on the right-hand side."
+      "description": "Finally, you can append the entire div element for the player card (`playerCard`) to the `playerCardDisplay` element. \r\n\r\nMake sure you close your for loop after this line and test your app locally. Now, when you upload your `game_stats.csv` file you should not only see the buttons of each player on the bench, but the starting PER of each player on their cards on the right-hand side.\r\n\r\nTo start the next [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/11-move-players), begin the next tour: [5 - movePlayers]"
     }
   ]
 }

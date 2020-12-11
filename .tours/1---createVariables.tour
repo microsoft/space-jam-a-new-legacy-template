@@ -3,8 +3,7 @@
   "title": "1 - createVariables",
   "steps": [
     {
-      "file": "main.js",
-      "line": 1,
+      "title": "Introduction",
       "description": "Welcome to the CodeTour for the Tune Squad Coaches App! You can follow along here, or in the [Microsoft Learn module](https://aka.ms/ExploreSportsWithCode/Module2). This tour start follows along with the [8th unit of this module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/8-initialize-app). \r\n\r\nClick Next to get started on adding functionality to your app!"
     },
     {
@@ -25,7 +24,7 @@
     {
       "file": "main.js",
       "line": 8,
-      "description": "Finally, create three new variables to track `quarterPER` (total PER for the current quarter), `quarterAvePER` (average PER for the current quarter), and `totalAvePER` (average PER for the entire game). Once you've finished this, you can move on to the next tour where you will read in the stat data!"
+      "description": "Finally, create three new variables to track `quarterPER` (total PER for the current quarter), `quarterAvePER` (average PER for the current quarter), and `totalAvePER` (average PER for the entire game). Once you've finished this, you can move on to the next tour where you will read in the stat data!\r\n\r\nTo complete this [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/8-initialize-app), start the next tour: [2 - readStatsData]."
     }
   ],
   "ref": "main"

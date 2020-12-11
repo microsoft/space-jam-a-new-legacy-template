@@ -3,8 +3,6 @@
   "title": "3 - addPlayerBench",
   "steps": [
     {
-      "file": "main.js",
-      "line": 36,
       "description": "It's time to display all of your players on the bench in your app! This tour follows along with the [9th unit of the Coaches App module on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/optimize-basketball-player-rest-breaks/9-add-players-to-bench).\r\n\r\nClick `next` to get started!"
     },
     {
@@ -30,7 +28,7 @@
     {
       "file": "main.js",
       "line": 58,
-      "description": "If your players are showing up on the bench, you can call `displayPlayerCards()` and start on the next tour!"
+      "description": "If your players are showing up on the bench, you can call `displayPlayerCards()`. You will write this function in the next tour!\r\n\r\nTo start the next [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/10-add-stats-to-app), begin the next tour: [4 - addPlayerCards]"
     }
   ],
   "ref": "main"

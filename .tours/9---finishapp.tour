@@ -3,8 +3,6 @@
   "title": "9 - finishApp",
   "steps": [
     {
-      "file": "main.js",
-      "line": 194,
       "description": "This tour follows along with the [13th unit in the Tune Squad Coaches App Microsoft Learn module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/13-finalize-web-app).\r\n\r\nThe goal of this function is to handle starting a new quarter (and the timer). This is the last function to complete your coaches app. This tour will not be as details as previous tours to give you an opportunity to test your JavaScript.\r\n\r\nClick `next` to get started."
     },
     {
@@ -48,8 +46,6 @@
       "description": "Finally, check if the quarter has ended by checking if there are any more seconds remaining in `secondsInQuarter`. To get the timer to count down to 0, you should check if it is less then or equal to 0. \r\nIf the quarter *has* ended, clear the interval with:  \r\n`clearInterval(x)`  \r\nWhich will stop the code from executing every second.\r\n\r\nThen, check if the `currentQuarter` is less than three, so you know it's time to call `endQuarter()`, or if it's 4, so you know it's time to call `endGame()`.\r\n\r\n**REMEMBER:** Close all of your conditional statements, and make sure the interval is closed at the very bottom of this function with:  \r\n`}, 1000);"
     },
     {
-      "file": "main.js",
-      "line": 213,
       "description": "Test your app to make sure that it is working...and...\r\n\r\nCONGRATULATIONS! You just completed your Tune Squad Coaches App! Make sure you commit your changes and push them up to GitHub. Once your GitHub action completes, you can check out your app on your live, publicly available website! \r\n\r\nDon't forget to head back to Microsoft Learn to complete the module and earn your badge! You can get to the [Knowledge Check by going here](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/14-knowledge-check)."
     }
   ],

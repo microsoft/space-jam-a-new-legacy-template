@@ -5,7 +5,7 @@
     {
       "file": "main.js",
       "line": 100,
-      "description": "This tour follows along with the [11th module in the Tune Squad Coaches App on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/optimize-basketball-player-rest-breaks/11-move-players).\r\n\r\nIt's now time to add functionality for the coach. This tour will guide you through enabling the coach to move players from the bench to the court and back again. \r\n\r\nClick `next` to get started."
+      "description": "This tour follows along with the [11th unit in the Tune Squad Coaches App on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/optimize-basketball-player-rest-breaks/11-move-players).\r\n\r\nIt's now time to add functionality for the coach. This tour will guide you through enabling the coach to move players from the bench to the court and back again. \r\n\r\nClick `next` to get started."
     },
     {
       "file": "main.js",
@@ -50,7 +50,7 @@
     {
       "file": "main.js",
       "line": 123,
-      "description": "Just like earlier, update the Average PER text to reflect the new average, and then move the player to the `playersOnBench` element using `appendChild`.\r\n\r\nDon't forget to close your else-statement!\r\n\r\nFinish off this function by testing to make sure players can move between the bench and the court, and that no more than 5 players can be on the court at one time."
+      "description": "Just like earlier, update the Average PER text to reflect the new average, and then move the player to the `playersOnBench` element using `appendChild`.\r\n\r\nDon't forget to close your else-statement!\r\n\r\nFinish off this function by testing to make sure players can move between the bench and the court, and that no more than 5 players can be on the court at one time.\r\n\r\nTo start the next [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/12-update-stats), begin the next tour: [6 - updateStats]"
     }
   ],
   "ref": "main"
