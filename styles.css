@@ -19,3 +19,130 @@ main > h1 {
   text-align: center;
   font-size: 3.5em;
 }
+
+.timer {
+  text-align: center;
+  font-size: 3.5em;
+}
+
+div.playerCard {
+  color: white;
+  width: 20%;
+  float: left;
+  font-size: 15px;
+  background-color: #10296D;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.perCard {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+}
+
+.gameSetup {
+  float:left;
+  width:100%;
+  height: 25%;
+}
+
+div.topColumn {
+  float:left;
+  height: 60px;
+  position: relative;
+  text-align: center;
+}
+
+p.topTitle {
+  font-size: 20px;
+  width: 100%;
+}
+
+#uploadStats {
+  width:30%;
+}
+
+#gameButton {
+  width:30%;
+  text-align: left;
+}
+
+#avePER {
+  width:40%;
+}
+
+.gamePlay {
+  float:left;
+  width:100%;
+  height: 75%;
+  margin-top: 30px;
+}
+
+div.column {
+  float:left;
+  height: 500px;
+  position: relative;
+}
+
+p.title {
+  text-align: center;
+  vertical-align: bottom;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+p.subtitle {
+  text-align: center;
+  vertical-align: bottom;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 100%;
+}
+
+#bench {
+  width:30%;
+  background: #10296D;
+  color: #DC482E;
+}
+
+#court {
+  width:35%;
+  background: #DC482E;
+  color: #10296D;
+}
+
+#stats {
+  width:35%;
+  background: #AC6FAA;
+  color: #10296D;
+}
+
+.start {
+  font-size: 30px;
+  margin-left: 38%;
+}
+
+.upload {
+  width: 500px;
+  margin-top: 20px;
+  font-size: 20px;
+  float: right;
+}
+.uploadButton {
+  width: 10px;
+  margin-top: 50px;
+  font-size: 20px;
+  float: right;
+}
+
+.playerButton {
+  background-color: #AC6FAA;
+  width: 32%;
+}

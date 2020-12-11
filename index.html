@@ -1,17 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="main.js">
+    </script>
+    <title>Tune Squad Coaches App</title>
+  </head>
 
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+  <body>
+    <main>
+      <h1><img style="vertical-align:middle" src="images/SpaceJamANewLegacyLogo.png"><br>Water Break App</h1>
+    </main>
 
+    <div id="gameSetup" class="gameSetup">
+      <div id="uploadStats" class="topColumn">
+        <p class="topTitle">Upload your game_stats.csv file here</p>
+        <input type="file" id="playerData">
+        <script type="text/javascript"> 
+          document.getElementById('playerData') 
+              .addEventListener('change', function() { 
+              
+              var playerNamesFile;
+              var fr=new FileReader(); 
+              fr.onload=function(){ 
+                playerStatsFile=fr.result; 
+                processPlayers(playerStatsFile);
+              } 
+                
+              fr.readAsText(this.files[0]); 
+          }) 
+        </script> 
+      </div>
+
+      <div id="gameButton" class="topColumn">
+        <p class="topTitle"></p>
+        <button type="button" id="start" class="start" onclick="startNextQuarter()">Start the Game!</button>
+      </div>
+      
+      <div id="avePER" class="topColumn">
+        <p class="topTitle">Average PER:</p>
+        <p class="topTitle" id="averagePER"></p>
+      </div>
+    </div>
+
+    <div id="gamePlay" class="gamePlay">
+      <div id="bench" class="column">
+        <div class="timer">Water Break</div>
+        <div id="playersOnBench"></div>
+        <p class="title">BENCH</p>
+      </div>
+
+      <div id="court" class="column">
+        <div id="timer" class="timer">TIME: 00:00</div>
+        <p id="quarter" class="subtitle"></p>
+        <div id="playersOnCourt"></div>
+        <p class="subtitle" id="currentPER"></p>
+        <p class="title">COURT</p>
+      </div>
+      
+      <div id="stats" class="column">
+        <div id="playerCards"><table id="playerTable"></table></div>
+        <p class="title">STATS</p>
+      </div>
+    </div>
+  </body>
+  <footer style="text-align: center;">
+    © 2020 Warner Bros. Ent. All Rights Reserved
+  </footer>
 </html>
