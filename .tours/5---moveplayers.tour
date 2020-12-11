@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "5 - movePlayers",
+  "steps": [
+    {
+      "file": "main.js",
+      "line": 100,
+      "description": "This tour follows along with the [11th module in the Tune Squad Coaches App on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/optimize-basketball-player-rest-breaks/11-move-players).\r\n\r\nIt's now time to add functionality for the coach. This tour will guide you through enabling the coach to move players from the bench to the court and back again. \r\n\r\nClick `next` to get started."
+    },
+    {
+      "file": "main.js",
+      "line": 102,
+      "description": "Remember, this function is called every time a coach clicks on the player buttons you created earlier. So before you do anything, you need to make sure the quarter isn't currently in progress. While in a real basketball game a coach can swap players out during a quarter, we only have enough data on our Tune Squad players to swap in between quarters. \r\n\r\nSo, if the `quarterInPlay` variable is true, simply `return` from this function so nothing else happens."
+    },
+    {
+      "file": "main.js",
+      "line": 104,
+      "description": "Before you can move a player, you need to know where they are! You can determine whether a player is on the bench or the court using `this.parentElement` - save that value in a variable called `parentDiv`."
+    },
+    {
+      "file": "main.js",
+      "line": 106,
+      "description": "If the id of the `parentDiv` is `playersOnBench`, you will need to move the player to the court. Make this check, then continue to the next step to actually move the player."
+    },
+    {
+      "file": "main.js",
+      "line": 109,
+      "description": "Before moving a player to the court, you need to make sure there isn't already 5 players on the court. Remember, you have a constant variable (`maxPlayersOnCourt`) and a global variable (`playersOnCourt`) that can help you here. \r\n\r\nIf there **are** already 5 players on the court, `alert` the coach with a message. \r\n\r\n*Example Message:*  \r\n'You can only have 5 players on the court at a time'  "
+    },
+    {
+      "file": "main.js",
+      "line": 113,
+      "description": "Make sure you close your if-statements where you where checking if there was room for the player on the court. Then, you can start an else-statement to move the player to the court. Then you can actually move the player:\r\n- Increase the count of players currently on the court (tracked by `playersOnCourt`)\r\n- Add the PER of the player that is moving to the court to the `quarterPER` variable (*Hint:* you can use the `playerMap` to get the current player with `this.id` and then look up their PER for that quarter using `currentQuarter`)\r\n- Re-calculate the `quarterAvePER` using the `quarterPER` and `playersOnCourt` variables that you just updated\r\n- Update the text of the `currentPER` element to reflect the new `quarterAvePER`"
+    },
+    {
+      "file": "main.js",
+      "line": 115,
+      "description": "Then, you can actually move the player to the court. This is similar to when you added the player to the bench earlier in this code, just append `this` as a child to the `playersOnCourt` element."
+    },
+    {
+      "file": "main.js",
+      "line": 119,
+      "description": "Now, you basically do the opposite:\r\n- Make sure you close your if-statement and start an else to capture players moving from the court to the bench.\r\n- Decrease the number of players on the court (`playersOnCourt`)\r\n- If there are still players on the court:\r\n  - Decrement the `quarterPER` by `this.id`'s PER for the `currentQuarter`\r\n  - Re-calculate the `quarterAvePER`"
+    },
+    {
+      "file": "main.js",
+      "line": 121,
+      "description": "If there are no more players on the court, just set the `quarterPER` and `quarterAvePER` to 0 to avoid negative numbers."
+    },
+    {
+      "file": "main.js",
+      "line": 123,
+      "description": "Just like earlier, update the Average PER text to reflect the new average, and then move the player to the `playersOnBench` element using `appendChild`.\r\n\r\nDon't forget to close your else-statement!\r\n\r\nFinish off this function by testing to make sure players can move between the bench and the court, and that no more than 5 players can be on the court at one time."
+    }
+  ],
+  "ref": "main"
+}

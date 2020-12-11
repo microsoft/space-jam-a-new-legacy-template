@@ -1,0 +1,37 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "7 - endQuarter",
+  "steps": [
+    {
+      "file": "main.js",
+      "line": 157,
+      "description": "This tour follows along with the [12th unit in the Tune Squad Coaches App Microsoft Learn module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/12-update-stats).\r\n\r\nThe goal of this function is to handle a quarter ending. This tour will not be as details as previous tours to give you an opportunity to test your JavaScript.\r\n\r\nClick `next` to get started."
+    },
+    {
+      "file": "main.js",
+      "line": 159,
+      "description": "When a quarter ends the clock display should reset to 0:00. You can do this by updating the `innerText` of the `timer` element."
+    },
+    {
+      "file": "main.js",
+      "line": 161,
+      "description": "Remember, you have a variable called `quarterInPlay` that should be set to false when a quarter ends."
+    },
+    {
+      "file": "main.js",
+      "line": 163,
+      "description": "The next 5 lines of code (corresponding to 5 comments) should handle the PER as follows:\r\n- Add the current quarter's average PER to the `totalAvePR` variable. (*Hint:* You need to use the `parseFloat` function here)\r\n- Update the text of the `averagePER` element to also display this quarter's average PER\r\n- Increment which quarter the game is in using the `currentQuarter` variable\r\n- Call the `updateCardsInGame()` function you wrote earlier\r\n- Alert the coach that the quarter has ended; for example `Q1 PER stats are in!`"
+    },
+    {
+      "file": "main.js",
+      "line": 173,
+      "description": "Next, you can update the `quarter` element's `innerText` to encourage the coach to choose new players after looking through the updated PER stats."
+    },
+    {
+      "file": "main.js",
+      "line": 175,
+      "description": "Finally, you can update the `start` button that starts each quarter with the next quarter's number."
+    }
+  ],
+  "ref": "main"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "1 - createVariables",
+  "steps": [
+    {
+      "file": "main.js",
+      "line": 1,
+      "description": "Welcome to the CodeTour for the Tune Squad Coaches App! You can follow along here, or in the [Microsoft Learn module](https://aka.ms/ExploreSportsWithCode/Module2). This tour start follows along with the [8th unit of this module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/8-initialize-app). \r\n\r\nClick Next to get started on adding functionality to your app!"
+    },
+    {
+      "file": "main.js",
+      "line": 2,
+      "description": "The first thing you need to do is create variables that will help you keep track of everything happening in the game. On this line, you should create one variable called `playerMap` that is an empty map. This will keep track of each player by mapping their name with their list of PER values."
+    },
+    {
+      "file": "main.js",
+      "line": 4,
+      "description": "Create two new constants called `maxPlayersOnCourt` and `numQuarters` that are used to validate that the coach has 5 players on the court before each quarter starts and only tries to play 4 quarters."
+    },
+    {
+      "file": "main.js",
+      "line": 6,
+      "description": "Create three new variables that will keep track of the `currentQuarter` (valid numbers will be 1-4), `playersOnCourt` (valid numbers will be 0-5), and `quarterInPlay` (valid values are true and false)."
+    },
+    {
+      "file": "main.js",
+      "line": 8,
+      "description": "Finally, create three new variables to track `quarterPER` (total PER for the current quarter), `quarterAvePER` (average PER for the current quarter), and `totalAvePER` (average PER for the entire game). Once you've finished this, you can move on to the next tour where you will read in the stat data!"
+    }
+  ],
+  "ref": "main"
+}

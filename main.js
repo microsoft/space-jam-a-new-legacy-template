@@ -10,9 +10,9 @@
 function processPlayers(allPlayerStats) {
     // Split the data by newline into an array.
 
-    // remove the header line (first line)
+    // Remove the header line (first line)
 
-    // Loop through the 15 players and create a map entry of player name to player PER
+    // Loop through the rows and create a map entry of player name to a list of player PER
 
         // Get all individual stat values
 
@@ -20,7 +20,7 @@ function processPlayers(allPlayerStats) {
 
         // The second column has the player name
 
-        // check if player exists in map
+        // Check if player exists in map
 
             // First time we see the player; Add them in!
 
@@ -194,6 +194,8 @@ function endGame() {
 function startNextQuarter() {
     // If there aren't exactly five players on the court, alert the coach that the game can't start.
 
+    // Update the button to indicate a quarter is in progress.
+    
     // Define the interval period for the quarter; in this case, it's 12 seconds.
 
     // Set the quarterInPlay variable to true so that the coach

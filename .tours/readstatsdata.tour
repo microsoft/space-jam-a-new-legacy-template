@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "2 - readStatsData",
+  "steps": [
+    {
+      "file": "main.js",
+      "line": 10,
+      "description": "You're ready to start processing your player data! This tour follows along with the [8th unit of the Tune Squad Coaches App Learn Module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/8-initialize-app). \r\n\r\nClick next to start this tour!"
+    },
+    {
+      "file": "main.js",
+      "line": 12,
+      "description": "It's time to read in the stats from the `game_stats.csv` file that you created using machine learning! You can see that `allPlayerStats` is being passed in to this function. This is basically a long string with all of the data separated by a newline (`\\n`) for each row. Split the `allPlayerStats` data by `\\n` and save that array into a variable called `allPlayerStatLines`. "
+    },
+    {
+      "file": "main.js",
+      "line": 14,
+      "description": "Next, remove the header (`minutes,player_name,TS%,AST,TO,USG,ORR,DRR,REBR,PER`) by calling `shift()` on your array."
+    },
+    {
+      "file": "main.js",
+      "line": 16,
+      "description": "Write a for-loop that goes through each `statLine` in the `allPlayerStatLines` array. You can use the `for(var x of y){}` type of loop for this."
+    },
+    {
+      "file": "main.js",
+      "line": 18,
+      "description": "Just like you did to split the entire dataset by row, use `split()` on a `,` to split each row into an array of individual stats. You're looking to only grab the player's name and PER for each row."
+    },
+    {
+      "file": "main.js",
+      "line": 20,
+      "description": "To make sure you account for any empty rows (for example, the last row in the dataset), `continue;` through the for-loop if `stats` is null or it's length is `<= 1`.",
+      "selection": {
+        "start": {
+          "line": 15,
+          "character": 8
+        },
+        "end": {
+          "line": 15,
+          "character": 91
+        }
+      }
+    },
+    {
+      "file": "main.js",
+      "line": 22,
+      "description": "Save the name of the player (which is in the second column of the dataset) into a `playerName` variable."
+    },
+    {
+      "file": "main.js",
+      "description": "Before saving the PER of that player, check to see if the player hasn't yet been added to your `playerMap`. Since you're iterating over all of the rows, the first 15 iterations the player won't exist, and the last 45 iterations the player should exist. ",
+      "line": 24
+    },
+    {
+      "file": "main.js",
+      "line": 26,
+      "description": "If the player does not yet exist in the map, add the player to the name with `playerName` as the key and `[]` as the value."
+    },
+    {
+      "file": "main.js",
+      "line": 28,
+      "description": "Save the player's PER (which is in the 10th column) into a variable called `per`."
+    },
+    {
+      "file": "main.js",
+      "line": 30,
+      "description": "Since your `playerMap` definitely has the player in it by now, you can simply `push` the PER value you just gathered onto the player's list in the map. You can use `get` on the `playerMap` using the key (`playerName`) and then `push` the `per`."
+    },
+    {
+      "file": "main.js",
+      "line": 32,
+      "description": "Now that you have all of your player PER stats loaded into your `playerMap`, you can start adding your players to the bench! Call the `displayPlayerBench()` function. When you're ready, you can start the next tour!\r\n\r\n**NOTE:** Make sure you've closed your for loop, you don't want to call `displayPlayerBench()` 60 times!"
+    }
+  ],
+  "ref": "main"
+}

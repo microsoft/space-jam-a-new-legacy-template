@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "4 - addPlayerCards",
+  "steps": [
+    {
+      "file": "main.js",
+      "line": 65,
+      "description": "This tour follows along with the [10th unit in the Tune Squad Coaches App module on Microsoft Learn](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/10-add-stats-to-app). \r\n\r\nSimilar to how you created the buttons for each player on the bench, you will now create a div for each player card that will display the player's PER each quarter. This will help the coach make the decision of who to let rest on the bench and who to put in the game. \r\n\r\nTo get started, click `next`."
+    },
+    {
+      "file": "main.js",
+      "line": 67,
+      "description": "The first thing you need to do is store the purple `playerCards` element in a variable called `playerCardDisplay` using the `getElementById` function."
+    },
+    {
+      "file": "main.js",
+      "line": 70,
+      "description": "Again, you will need to loop through your players, but this time you need access to both the player's name and their PER. You can use the `for(let [x, y] of z.entries())` loop type, which will yield two variables you can use through your for loop: `playerName` and `playerStats`."
+    },
+    {
+      "file": "main.js",
+      "line": 72,
+      "description": "For each player, create a div with the `createElement` function called `playerCard`."
+    },
+    {
+      "file": "main.js",
+      "line": 74,
+      "description": "Just like before, you will do the following to build up the div. These steps are for the next 10 lines of code (corresponding each to a comment):\r\n- Assign the id of the div to the player's name, with `_card` appended to it (e.g. `Tweety_card`)\r\n- Assign the class of the div to `playerCard`\r\n- Create an img element named `playerImage`\r\n- Assign the class of the img to `perCard`\r\n- Assign the src of the img to `images/playerName.png` where `playerName` is replaced with the player's actual name\r\n- Append the `playerImage` to the div\r\n- Create a new p element named `newPlayerPER`\r\n- Assign the class of the p element to `perCard`\r\n- Assign the innerText of the p element to `PER: X` where `X` is replaced with the player's PER for that quarter (HINT: `playerStats[currentQuarter]` will have that PER value)\r\n- Append the p element to the div element"
+    },
+    {
+      "file": "main.js",
+      "line": 94,
+      "description": "Finally, you can append the entire div element for the player card (`playerCard`) to the `playerCardDisplay` element. \r\n\r\nMake sure you close your for loop after this line and test your app locally. Now, when you upload your `game_stats.csv` file you should not only see the buttons of each player on the bench, but the starting PER of each player on their cards on the right-hand side."
+    }
+  ]
+}

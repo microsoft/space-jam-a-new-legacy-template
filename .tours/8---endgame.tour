@@ -1,0 +1,32 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "8 - endGame",
+  "steps": [
+    {
+      "file": "main.js",
+      "line": 180,
+      "description": "This tour follows along with the [12th unit in the Tune Squad Coaches App Microsoft Learn module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/12-update-stats).\r\n\r\nThe goal of this function is to handle the game ending. This tour will not be as details as previous tours to give you an opportunity to test your JavaScript.\r\n\r\nClick `next` to get started."
+    },
+    {
+      "file": "main.js",
+      "line": 182,
+      "description": "Just like with the quarter ending, make sure the coach can't move players by setting the `quarterInPlay` variable to true."
+    },
+    {
+      "file": "main.js",
+      "line": 184,
+      "description": "The average PER for the game should just be the total average PER divided by the total number of quarters. \r\n\r\n**REMEMBER:** By the time this function is called you have not yet captured the average PER for the final quarter. Also, you have a `numQuarters` constant that you created earlier."
+    },
+    {
+      "file": "main.js",
+      "line": 186,
+      "description": "At this point, alert the coach and update the `innerText` for the `averagePER` element to display the last quarter's average PER and the total average PER for the entire game."
+    },
+    {
+      "file": "main.js",
+      "line": 188,
+      "description": "Finally, you should:\r\n- Change the `timer`'s text to say `That's all folks!`\r\n- Make the text of the `gameButton`, `quarter`, and `currentPER` elements an empty string(`''`)"
+    }
+  ],
+  "ref": "main"
+}
