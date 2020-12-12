@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "9 - finishApp",
+  "title": "9 - Finish App",
   "steps": [
     {
       "description": "This tour follows along with the [13th unit in the Tune Squad Coaches App Microsoft Learn module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/13-finalize-web-app).\r\n\r\nThe goal of this function is to handle starting a new quarter (and the timer). This is the last function to complete your coaches app. This tour will not be as details as previous tours to give you an opportunity to test your JavaScript.\r\n\r\nClick `next` to get started."

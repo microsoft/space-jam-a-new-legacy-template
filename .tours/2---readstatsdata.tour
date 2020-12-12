@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "2 - readStatsData",
+  "title": "2 - Read Stats Data",
   "steps": [
     {
       "description": "You're ready to start processing your player data! This tour finishes up the [8th unit of the Tune Squad Coaches App Learn Module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/8-initialize-app). \r\n\r\nClick next to start this tour!"

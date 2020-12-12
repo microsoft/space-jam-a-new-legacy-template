@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "3 - addPlayerBench",
+  "title": "3 - Add Player Bench",
   "steps": [
     {
       "description": "It's time to display all of your players on the bench in your app! This tour follows along with the [9th unit of the Coaches App module on Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/optimize-basketball-player-rest-breaks/9-add-players-to-bench).\r\n\r\nClick `next` to get started!"
