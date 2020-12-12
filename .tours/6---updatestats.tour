@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "6 - updateStats",
+  "title": "6 - Update Stats",
   "steps": [
     {
       "description": "This tour follows along with the [12th unit in the Tune Squad Coaches App Microsoft Learn module](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/12-update-stats).\r\n\r\nThe goal of this function is to update the player cards each time a new quarter starts. This tour will not be as details as previous tours to give you an opportunity to test your JavaScript.\r\n\r\nClick `next` to get started."

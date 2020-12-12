@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "1 - createVariables",
+  "title": "1 - Create Variables",
   "steps": [
     {
       "title": "Introduction",
