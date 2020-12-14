@@ -7,27 +7,27 @@
     },
     {
       "file": "main.js",
-      "line": 67,
+      "line": 94,
       "description": "The first thing you need to do is store the purple `playerCards` element in a variable called `playerCardDisplay` using the `getElementById` function."
     },
     {
       "file": "main.js",
-      "line": 70,
+      "line": 98,
       "description": "Again, you will need to loop through your players, but this time you need access to both the player's name and their PER. You can use the `for(let [x, y] of z.entries())` loop type, which will yield two variables you can use through your for loop: `playerName` and `playerStats`."
     },
     {
       "file": "main.js",
-      "line": 72,
+      "line": 100,
       "description": "For each player, create a div with the `createElement` function called `playerCard`."
     },
     {
       "file": "main.js",
-      "line": 74,
+      "line": 103,
       "description": "Just like before, you will do the following to build up the div. These steps are for the next 10 lines of code (corresponding each to a comment):\r\n- Assign the id of the div to the player's name, with `_card` appended to it (e.g. `Tweety_card`)\r\n- Assign the class of the div to `playerCard`\r\n- Create an img element named `playerImage`\r\n- Assign the class of the img to `perCard`\r\n- Assign the src of the img to `images/playerName.png` where `playerName` is replaced with the player's actual name\r\n- Append the `playerImage` to the div\r\n- Create a new p element named `newPlayerPER`\r\n- Assign the class of the p element to `perCard`\r\n- Assign the innerText of the p element to `PER: X` where `X` is replaced with the player's PER for that quarter (HINT: `playerStats[currentQuarter]` will have that PER value)\r\n- Append the p element to the div element"
     },
     {
       "file": "main.js",
-      "line": 94,
+      "line": 133,
       "description": "Finally, you can append the entire div element for the player card (`playerCard`) to the `playerCardDisplay` element. \r\n\r\nMake sure you close your for loop after this line and test your app locally. Now, when you upload your `game_stats.csv` file you should not only see the buttons of each player on the bench, but the starting PER of each player on their cards on the right-hand side.\r\n\r\nTo start the next [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/11-move-players), begin the next tour: [5 - movePlayers]"
     }
   ]

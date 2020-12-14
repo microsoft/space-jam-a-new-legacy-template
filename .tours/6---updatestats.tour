@@ -7,37 +7,37 @@
     },
     {
       "file": "main.js",
-      "line": 134,
+      "line": 197,
       "description": "Similar to how you added the PER to each player card earlier, update the PER on each player card by looping through each player name and associated stats in the `playerMap` map. \r\n\r\n**HINT:** `currentQuarter` is useful here."
     },
     {
       "file": "main.js",
-      "line": 136,
+      "line": 202,
       "description": "Resetting the quarter's PER includes both the total PER and average PER, similar to how you did this when all players were taken off the court in an earlier function."
     },
     {
       "file": "main.js",
-      "line": 138,
+      "line": 206,
       "description": "To get a list of all of the players on the court, you can use `.children` on the `playersOnCourt` element. Save this list to a variable called `currentPlayers`."
     },
     {
       "file": "main.js",
-      "line": 140,
+      "line": 209,
       "description": "When looping through all of the players currently on the court, you want to know what index each player is, so this time you can use the `for(var i = 0; i < x.length; i++)` loop type. Make sure you save the index in a variable called `playerIndex`."
     },
     {
       "file": "main.js",
-      "line": 142,
+      "line": 211,
       "description": "The next 3 lines of code should then:\r\n- Get the name of the player using the `playerIndex` you just created in your for loop on the `currentPlayers` list, and saving the id in a variable called `playerName`\r\n- Get the PER for that player using the `playerName` and `currentQuarter` on the `playerMap` and saving it to a variable called `playerPER`\r\n- Add the `playerPER` to the `quarterPER`\r\n\r\nMake sure you close your for-loop!"
     },
     {
       "file": "main.js",
-      "line": 148,
+      "line": 221,
       "description": "Calculate the average PER for the quarter."
     },
     {
       "file": "main.js",
-      "line": 151,
+      "line": 225,
       "description": "Finally, update the text of the `currentPER` element with the new average.\r\n\r\nTo continue with this [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/12-update-stats), begin the next tour: [7 - endQuarter]"
     }
   ],

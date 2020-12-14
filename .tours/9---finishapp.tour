@@ -7,42 +7,42 @@
     },
     {
       "file": "main.js",
-      "line": 196,
+      "line": 286,
       "description": "This function is called when the coach presses the `start` button, which can happen at any time. Make sure the coach has at least 5 players on the court, and if there aren't at least 5 players ont he court, `alert` the coach and `return` from the function."
     },
     {
       "file": "main.js",
-      "line": 198,
+      "line": 294,
       "description": "If the coach is good to start the quarter, update the `start` button's text to indicate that a quarter is in progress."
     },
     {
       "file": "main.js",
-      "line": 200,
+      "line": 297,
       "description": "Create a variable called `secondsInQuarter` taht is initialized to 12. Typically there aren't only 48 seconds in a basketball game, but it would take a long time to test this app if you had to wait 48 *minutes* between games."
     },
     {
       "file": "main.js",
-      "line": 203,
+      "line": 301,
       "description": "Finally, set `quarterInPlay` to true, since the quarter is starting."
     },
     {
       "file": "main.js",
-      "line": 206,
+      "line": 305,
       "description": "The code for an interval loop is somewhat tricky. You essentially create a variable that is equal to an interval. An interval is defined as a function and a time in milliseconds. In this case, the skeleton of your code should look like this:\r\n```\r\nvar x = setInterval(function() {\r\n  // Next three comments are in here\r\n}, 1000);\r\n```"
     },
     {
       "file": "main.js",
-      "line": 208,
+      "line": 307,
       "description": "Update the text of the `timer` element to be:\r\n\r\n`'Q '+ (currentQuarter + 1) + ' Time: ' + secondsInQuarter + ':00';`\r\n\r\nWhich will capture the quarter and the current remainign seconds in the quarter. Remember, this code is being called every second, so it will update with a new number every second on the app."
     },
     {
       "file": "main.js",
-      "line": 210,
+      "line": 310,
       "description": "Decrement the `secondsInQuarter` variable. Again, this starts at 12 and will go down to 1, decrementing every second when this inner interval function is called."
     },
     {
       "file": "main.js",
-      "line": 212,
+      "line": 313,
       "description": "Finally, check if the quarter has ended by checking if there are any more seconds remaining in `secondsInQuarter`. To get the timer to count down to 0, you should check if it is less then or equal to 0. \r\nIf the quarter *has* ended, clear the interval with:  \r\n`clearInterval(x)`  \r\nWhich will stop the code from executing every second.\r\n\r\nThen, check if the `currentQuarter` is less than three, so you know it's time to call `endQuarter()`, or if it's 4, so you know it's time to call `endGame()`.\r\n\r\n**REMEMBER:** Close all of your conditional statements, and make sure the interval is closed at the very bottom of this function with:  \r\n`}, 1000);"
     },
     {

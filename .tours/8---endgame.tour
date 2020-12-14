@@ -7,22 +7,22 @@
     },
     {
       "file": "main.js",
-      "line": 182,
+      "line": 264,
       "description": "Just like with the quarter ending, make sure the coach can't move players by setting the `quarterInPlay` variable to true."
     },
     {
       "file": "main.js",
-      "line": 184,
+      "line": 267,
       "description": "The average PER for the game should just be the total average PER divided by the total number of quarters. \r\n\r\n**REMEMBER:** By the time this function is called you have not yet captured the average PER for the final quarter. Also, you have a `numQuarters` constant that you created earlier."
     },
     {
       "file": "main.js",
-      "line": 186,
+      "line": 271,
       "description": "At this point, alert the coach and update the `innerText` for the `averagePER` element to display the last quarter's average PER and the total average PER for the entire game."
     },
     {
       "file": "main.js",
-      "line": 188,
+      "line": 275,
       "description": "Finally, you should:\r\n- Change the `timer`'s text to say `That's all folks!`\r\n- Make the text of the `gameButton`, `quarter`, and `currentPER` elements an empty string(`''`)\r\n\r\nTo complete the app and start on the next [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/13-finalize-web-app), begin the next tour: [9 - finishApp]"
     }
   ],

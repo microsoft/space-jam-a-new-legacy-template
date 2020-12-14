@@ -7,27 +7,27 @@
     },
     {
       "file": "main.js",
-      "line": 159,
+      "line": 233,
       "description": "When a quarter ends the clock display should reset to 0:00. You can do this by updating the `innerText` of the `timer` element."
     },
     {
       "file": "main.js",
-      "line": 161,
+      "line": 236,
       "description": "Remember, you have a variable called `quarterInPlay` that should be set to false when a quarter ends."
     },
     {
       "file": "main.js",
-      "line": 163,
+      "line": 238,
       "description": "The next 5 lines of code (corresponding to 5 comments) should handle the PER as follows:\r\n- Add the current quarter's average PER to the `totalAvePR` variable. (*Hint:* You need to use the `parseFloat` function here)\r\n- Update the text of the `averagePER` element to also display this quarter's average PER\r\n- Increment which quarter the game is in using the `currentQuarter` variable\r\n- Call the `updateCardsInGame()` function you wrote earlier\r\n- Alert the coach that the quarter has ended; for example `Q1 PER stats are in!`"
     },
     {
       "file": "main.js",
-      "line": 173,
+      "line": 254,
       "description": "Next, you can update the `quarter` element's `innerText` to encourage the coach to choose new players after looking through the updated PER stats."
     },
     {
       "file": "main.js",
-      "line": 175,
+      "line": 257,
       "description": "Finally, you can update the `start` button that starts each quarter with the next quarter's number.\r\n\r\nTo complete this [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/12-update-stats), begin the next tour: [8 - endGame]"
     }
   ],

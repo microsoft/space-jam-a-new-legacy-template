@@ -7,27 +7,27 @@
     },
     {
       "file": "main.js",
-      "line": 38,
+      "line": 55,
       "description": "If you head over to the `index.html` file you can find an element called `playersOnBench`. This element representst the blue bench in your app. \r\n\r\nCreate a variable called `bench` that points to this element in your HTML by using the `getElementByID` function."
     },
     {
       "file": "main.js",
-      "line": 40,
+      "line": 58,
       "description": "Loop through each player in your `playerMap` by using the `for(let X of Y)` loop type. For this loop, you only need the player's name, so use `playerName` to store that information and you can loop through `playerMap.keys()`."
     },
     {
       "file": "main.js",
-      "line": 42,
+      "line": 60,
       "description": "This step in the tour will cover the next 6 lines of code you need to write (mapping one line of code per comment in this function).\r\n\r\nFor each player, you will need to:\r\n- Create a button called `newPlayer` using the `createElement` function\r\n- Set the id of that element to the player's name (which you have in `playerName`)\r\n- Set the className of that element to `playerButton` (you can check out that class in the `styles.css` file)\r\n- Set the onClick method of that element to the `movePlayer` function (which you will write in a subsequent tour)\r\n- Create an image element called `playerImage` using the `createElement` function\r\n- Set the src of the image to `images/playerName.png`, where `playerName` is replaced with the actual player's name\r\n- Append the image element to the button element using the `appendChild` function"
     },
     {
       "file": "main.js",
-      "line": 56,
+      "line": 81,
       "description": "Now you can add each button to the bench, by calling the `appendChild` function again. \r\n\r\nBefore continuing, make sure you test out your code locally to ensure that you can:\r\n1. Upload your `game_stats.csv` file \r\n2. When you do, the 15 player buttons appear on the bench. "
     },
     {
       "file": "main.js",
-      "line": 58,
+      "line": 85,
       "description": "If your players are showing up on the bench, you can call `displayPlayerCards()`. You will write this function in the next tour!\r\n\r\nTo start the next [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/10-add-stats-to-app), begin the next tour: [4 - addPlayerCards]"
     }
   ],

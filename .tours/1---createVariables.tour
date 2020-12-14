@@ -18,12 +18,12 @@
     },
     {
       "file": "main.js",
-      "line": 6,
-      "description": "Create three new variables that will keep track of the `currentQuarter` (valid numbers will be 1-4), `playersOnCourt` (valid numbers will be 0-5), and `quarterInPlay` (valid values are true and false)."
+      "description": "Create three new variables that will keep track of the `currentQuarter` (valid numbers will be 1-4), `playersOnCourt` (valid numbers will be 0-5), and `quarterInPlay` (valid values are true and false).",
+      "line": 8
     },
     {
       "file": "main.js",
-      "line": 8,
+      "line": 13,
       "description": "Finally, create three new variables to track `quarterPER` (total PER for the current quarter), `quarterAvePER` (average PER for the current quarter), and `totalAvePER` (average PER for the entire game). Once you've finished this, you can move on to the next tour where you will read in the stat data!\r\n\r\nTo complete this [unit](https://docs.microsoft.com/learn/modules/optimize-basketball-player-rest-breaks/8-initialize-app), start the next tour: [2 - readStatsData]."
     }
   ],
